@@ -1,9 +1,9 @@
 const carousel = document.getElementById("carousel");
 
-carousel.addEventListener("mouseenter", () => {
+carousel.addEventListener("mouseenter", function () {
     carousel.style.animationPlayState = "paused";
 });
 
-carousel.addEventListener("mouseleave", () => {
+carousel.addEventListener("mouseleave", function () {
     carousel.style.animationPlayState = "running";
 });
